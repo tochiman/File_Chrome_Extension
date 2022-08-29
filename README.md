@@ -1,0 +1,2 @@
+# File_Chrome_Extension
+ファイルプロトコルをChromeで開いたときに見やすくするChromeの拡張機能

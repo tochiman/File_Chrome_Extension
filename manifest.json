@@ -1,0 +1,22 @@
+{
+    "name": "File shaping",
+    "author": "tochiman",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "fileプロトコルをchromeで開いたときに、見やすくする拡張機能。",
+    "homepage_url":"",
+    "content_scripts": [
+        {
+            "matches": [
+                "file://*"
+            ],
+            "css": [
+                "src/css/style.css"
+            ],
+            "js": [
+                "src/js/jquery-3.6.0.min.js",
+                "src/js/content.js"
+            ]
+        }
+    ]
+}

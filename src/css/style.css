@@ -1,0 +1,38 @@
+html {
+    background-color: #ee9ca7;
+}
+
+a {
+    /* text-decoration: none; */
+    color: black;
+}
+
+body {
+    border: solid black;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #ffdde1;
+    padding: 30px;
+}
+
+body #parentDirLinkBox button {
+    width: 7em;
+    height: 2em;
+    padding: 0;
+    font-size: large;
+    border-color: black;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 #ffdde1;
+}
+
+body #parentDirLinkBox button:hover {
+    box-shadow: 0 0 0 rgb(118, 118, 118);
+    transform: translateY(3px);
+}
+
+body #header {
+    text-align: center;
+    white-space: normal;
+}

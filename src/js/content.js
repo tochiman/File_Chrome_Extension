@@ -1,4 +1,3 @@
-const rep_space = "";
 
 $(function () {
     //ヘッダー名部分のHTMLデータ取得
@@ -7,7 +6,8 @@ $(function () {
 
     //正規表現を用いてパス名だけ取得してHTMLに返す
     var pattern = /のインデックス/g;
-    var res = str_get_header.replace(pattern, rep_space);
+    var rep = "";
+    var res = str_get_header.replace(pattern, rep);
     $('#header').html(res);
 });
 

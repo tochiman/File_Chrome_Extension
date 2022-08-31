@@ -3,8 +3,13 @@
     "author": "tochiman",
     "version": "1.0.0",
     "manifest_version": 3,
+    "icons": {
+        "16": "img/icon16.png",
+        "48": "img/icon48.png",
+        "128": "img/icon128.png"
+    },
     "description": "fileプロトコルをchromeで開いたときに、見やすくする拡張機能。",
-    "homepage_url":"https://github.com/tochiman/File_Chrome_Extension.git",
+    "homepage_url": "https://github.com/tochiman/File_Chrome_Extension.git",
     "content_scripts": [
         {
             "matches": [

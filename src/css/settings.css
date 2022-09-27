@@ -1,0 +1,47 @@
+html {
+    width: 450px;
+}
+
+li {
+    list-style: none;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.main .setting {
+    margin-top: 10px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main .setting .background-set p {
+    font-size: large;
+}
+
+.main .setting .form-select {
+    width: 80%;
+    height: 50px;
+    transform: translateX(10px);
+}
+.main .setting .all-font{
+    width: 80%;
+}
+.main .setting .slider{
+    width: 80%;
+}
+
+.main .save-reset {
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-right: 20px;
+    width: 85%;
+    margin-top: 10px;
+
+    text-align: right;
+}

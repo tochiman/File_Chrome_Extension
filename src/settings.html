@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="css/settings.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <img src="../img/icon48.png">
+            <span class="fs-4">File shaping 設定画面</span>
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+    </header> -->
+
+    <div class="main">
+        <div class="setting">
+            <ul>
+                <div class="background-set">
+                    <li>
+                        <p>背景色の設定(現在の背景色:<span id="select-color"></span>)</p>
+                    </li>
+                    <li style="height: 60px;">
+                        <input class="form-select" id="color-list" type="color" value="#ffffff" list="colors"></br></br>
+                        <datalist id="colors">
+                            <option value="#ffffff"></option>
+                            <option value="#030303"></option>
+                            <option value="#ff4747"></option>
+                            <option value="#ee9ca7"></option>
+                            <option value="#00005a"></option>
+                        </datalist>
+                    </li>
+                    <li>
+                        <p>全体のフォントサイズ</p>
+                    </li>
+                    <li>
+                        <input type="range" class="all-font" value="1" min="10" max="50" step="1">
+                        <p class="all-font-p">1px</p><span>
+                    </li>
+                    <li>
+                        <p>カレントディレクトリのフォントサイズ</p>
+                    </li>
+                    <li>
+                        <input type="range" class="slider" value="1" min="1" max="70" step="1">
+                        <p class="cd_size">1px</p><span>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        <div class="save-reset">
+            <button type="button" class="btn btn-primary" id="save-btn">Save</button>
+            <button type="button" class="btn btn-secondary" id="reset-btn">Reset</button>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer class="footer">
+        <p class="copy">Copyright &copy; 2022 tochiman All Rights Resarved.</p>
+    </footer>
+
+</body>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/settings.js"></script>
+
+</html>
